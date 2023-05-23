@@ -1,16 +1,16 @@
-import android from '../svgs/android.svg';
-import caminhao from '../svgs/caminhao.svg';
-import disney from '../svgs/disney.svg';
-import estrela from '../svgs/estrela.svg';
-import gasolina from '../svgs/gasolina.svg';
-import moto from '../svgs/moto.svg';
+import file1 from '../svgs/file1.svg';
+import file2 from '../svgs/file2.svg';
+import file3 from '../svgs/file3.svg';
+import file4 from '../svgs/file4.svg';
+import file5 from '../svgs/file5.svg';
+import file6 from '../svgs/file6.svg';
 
 export const items = [
-    {name: 'android', icon: android},
-    {name: 'caminhao', icon: caminhao},
-    {name: 'disney', icon: disney},
-    {name: 'estrela', icon: estrela},
-    {name: 'gasolina', icon: gasolina},
-    {name: 'moto', icon: moto}
+    {name: 'file1', icon: file1},
+    {name: 'file2', icon: file2},
+    {name: 'file3', icon: file3},
+    {name: 'file4', icon: file4},
+    {name: 'file5', icon: file5},
+    {name: 'file6', icon: file6}
 
 ];

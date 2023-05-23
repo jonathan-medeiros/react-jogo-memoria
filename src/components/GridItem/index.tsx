@@ -1,6 +1,7 @@
 import * as C from './styles';
 import { GridItemType } from '../../types/GridItemType';
 import b7Svg from '../../svgs/b7.svg';
+import fortniteLogo from '../../svgs/logo.svg';
 
 import { items } from '../../data/items';
 
@@ -18,7 +19,7 @@ export const GridItem = ({ item, onClick }: Props) => {
         >
             
             { !item.permanentShown && !item.shown &&
-                <C.Icon src={b7Svg} alt="" opacity={.1} />
+                <C.Icon src={fortniteLogo} alt="" opacity={.1} />
             }  
 
             { (item.permanentShown || item.shown) && item.item !== null &&
